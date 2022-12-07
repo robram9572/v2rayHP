@@ -2,6 +2,8 @@
 # 一分钟v2ray：vmess+websocket+tls+nginx
 # 一分钟v2ray：vless+websocket+tls+nginx
 # v2ray 一键安装，只需30s
+# 开启BBR
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/bbr.sh | bash -s
 
 解析好域名
 
