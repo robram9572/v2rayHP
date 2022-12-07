@@ -1,4 +1,4 @@
-# v2ray纯净安装（及shadowsocks纯净安装），基于手动纯净部署命令的整理，内容一目了然。你可以理解为你手动执行时的每一个复制粘贴和修改文件的命令的合集，批处理而已
+﻿# v2ray纯净安装（及shadowsocks纯净安装），基于手动纯净部署命令的整理，内容一目了然。你可以理解为你手动执行时的每一个复制粘贴和修改文件的命令的合集，批处理而已
 # 一分钟v2ray：vmess+websocket+tls+nginx
 # 一分钟v2ray：vless+websocket+tls+nginx
 # v2ray 一键安装，只需30s
@@ -7,23 +7,23 @@
 
 # vmess安装：
 
-终端执行命令: curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vmess.sh | bash -s "你的解析好的域名"
+终端执行命令: curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vmess.sh | bash -s "你的解析好的域名"
 # EG：
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vmess.sh | bash -s kty.v2ray.one
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vmess.sh | bash -s kty.v2ray.one
 
 # ---------------------------------------------------------------------
 
 # vless安装：
 
 终端执行命令: 
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vless.sh | bash -s "你的解析好的域名"
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vless.sh | bash -s "你的解析好的域名"
 或: 
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vmess.sh | bash -s "你的解析好的域名" vless
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vmess.sh | bash -s "你的解析好的域名" vless
 
 # EG：
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vless.sh | bash -s kty.v2ray.one
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vless.sh | bash -s kty.v2ray.one
 或
-curl -s https://raw.githubusercontent.com/HappyLife-page/v2ray/main/v2ray_installation_vmess.sh | bash -s kty.v2ray.one vless
+curl -s https://raw.githubusercontent.com/robram9572/v2rayHP/main/v2ray_installation_vmess.sh | bash -s kty.v2ray.one vless
 
 vultr 6美元机器只需要不到30s部署完成【https://www.vultr.com/?ref=8773909】
 
